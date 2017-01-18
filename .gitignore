@@ -17,5 +17,4 @@ application/logs/*
 /vendor/
 
 #codeigniter system
-system/ 
 index.html
