@@ -4,7 +4,7 @@ This is a web portal which works to collaborate the goverment authorities with c
 
 [![NepalReports demo](https://i.imgur.com/ZQ7umP5.png)](http://nepalreports.cf/)
 
-## Working Scenario:
+## Working Scenario
 
 ***User:***
 - Easy account creation using the form or using Facebook login
@@ -33,7 +33,7 @@ git clone https://github.com/psuzn/nepalReport
 cd nepalReport
 ```
 
-## Technologies:
+## Technologies
 
 - CodeIgniter for PHP
 - MySql and PhpMyAdmin for Database
