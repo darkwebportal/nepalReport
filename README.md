@@ -2,6 +2,13 @@
 
 This is a web portal which works to collaborate the goverment authorities to and from citizens to monitor and exchange timely reports witnessed in realtime allowing for action in no time.
 
+##Working Scenario:
+
+***User:***
+- An encrypted form to send back the server in every field with the background of certain Law the person can take the basis
+- Account details created will not be received by the admin, hence allowing anonymous Form Fillup
+- Only after verification and aggrement, the account details will be shown to the concerned authorities
+- Filtering of #tonepalreports tweets filtered to directly reached to admins allowing hassle free reporting
 
 
 ## Installation
