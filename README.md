@@ -2,7 +2,7 @@
 
 This is a web portal which works to collaborate the goverment authorities to and from citizens to monitor and exchange timely reports witnessed in realtime allowing for action in no time.
 
-##Working Scenario:
+## Working Scenario:
 
 ***User:***
 - An encrypted form to send back the server in every field with the background of certain Law the person can take the basis
@@ -19,7 +19,7 @@ This is a web portal which works to collaborate the goverment authorities to and
 
 - Goto http://nepalreports.cf
 
-else setup apache and mariadb and open form localhost:
+- Else setup apache and mariadb and open form localhost:
 
 ```
 git clone https://github.com/psuzn/nepalReport
