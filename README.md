@@ -10,6 +10,10 @@ This is a web portal which works to collaborate the goverment authorities to and
 - Only after verification and aggrement, the account details will be shown to the concerned authorities
 - Filtering of #tonepalreports tweets filtered to directly reached to admins allowing hassle free reporting
 
+***Admin:***
+- An additional http://nepalreports.cf/adminlogin dashboard to visualize the reports received
+- A timeline layout showing feeds according to recent report in priority
+- Option to act on it with interation with user who filed the report to further proceed the work
 
 ## Installation
 
