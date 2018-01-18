@@ -15,43 +15,20 @@ This is a web portal which works to collaborate the goverment authorities to and
 - A timeline layout showing feeds according to recent report in priority
 - Option to act on it with interation with user who filed the report to further proceed the work
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'chicago_crimes_one_year'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install chicago_crimes_one_year
-
 ## Usage
 
-To retrieve all the Chicago employees, use this command:
+- Goto http://nepalreports.cf
 
-```ruby
-ChicagoCrimesOneYear::Crime.all
+else setup apache and mariadb and open form localhost:
+
 ```
-
-To retrieve employees based on a specific search term:
-
-```ruby
-ChicagoCrimesOneYear::Crime.find(YOUR-SEARCH-TERM-HERE)
-example:
-ChicagoCrimesOneYear::Crime.find(Western)
-example:
-ChicagoCrimesOneYear::Crime.find(Robbery)
+git clone https://github.com/psuzn/nepalReport
+cd nepalReport
 ```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/chicago_crimes_one_year/fork )
+1. Fork it (https://github.com/psuzn/nepalReport/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
