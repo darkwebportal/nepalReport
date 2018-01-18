@@ -11,7 +11,7 @@ This is a web portal which works to collaborate the goverment authorities with c
 - An encrypted form to send back the server in every field with the background of certain Law the person can take the basis
 - Account details created will not be received by the admin, hence allowing anonymous Form Fillup
 - Only after verification and aggrement, the account details will be shown to the concerned authorities
-- Filtering of #tonepalreports tweets filtered to directly reached to admins allowing hassle free reporting
+- Filtering of ***#tonepalreports*** tweets filtered to directly reached to admins allowing hassle free reporting
 
 [![User demo](https://i.imgur.com/S1BuyiX.png)](http://nepalreports.cf/)
 
@@ -32,6 +32,12 @@ This is a web portal which works to collaborate the goverment authorities with c
 git clone https://github.com/psuzn/nepalReport
 cd nepalReport
 ```
+
+## Todos
+
+- [ ] Creating a better UI with navbar in Login and Register pages
+- [ ] Addition more visualization pattern like graphs and Bars for realtime analysis
+- [ ] Using the ***#tonepalreports*** hashtag for seniment analysis 
 
 ## Contributing
 
