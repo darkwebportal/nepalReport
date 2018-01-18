@@ -1,6 +1,6 @@
 # NepalReports - A Crime Reporting Portal
 
-This is a web portal which works to collaborate the goverment authorities to and from citizens to monitor and exchange timely reports witnessed in realtime allowing for action in no time.
+This is a web portal which works to collaborate the goverment authorities with citizens to monitor and exchange timely crime reports witnessed in realtime allowing for action in no time with anonyomous reporting for user and dashboard for admin side. 
 
 [![NepalRoports demo](https://i.imgur.com/ZQ7umP5.png)](http://nepalreports.cf/)
 
