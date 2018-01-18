@@ -33,11 +33,17 @@ git clone https://github.com/psuzn/nepalReport
 cd nepalReport
 ```
 
+## Technologies:
+
+- CodeIgniter for PHP
+- MySql and PhpMyAdmin for Database
+- Google Material Design Pattern HTML
+
 ## Todos
 
 - [ ] Creating a better UI with navbar in Login and Register pages
 - [ ] Addition more visualization pattern like graphs and Bars for realtime analysis
-- [ ] Using the ***#tonepalreports*** hashtag for seniment analysis 
+- [ ] Using the ***#tonepalreports*** hashtag for sentiment analysis 
 
 ## Contributing
 
