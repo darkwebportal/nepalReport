@@ -2,13 +2,18 @@
 
 This is a web portal which works to collaborate the goverment authorities to and from citizens to monitor and exchange timely reports witnessed in realtime allowing for action in no time.
 
+[![NepalRoports demo](https://i.imgur.com/ZQ7umP5.png)](http://nepalreports.cf/)
+
 ## Working Scenario:
 
 ***User:***
+- Easy account creation using the form or using Facebook login
 - An encrypted form to send back the server in every field with the background of certain Law the person can take the basis
 - Account details created will not be received by the admin, hence allowing anonymous Form Fillup
 - Only after verification and aggrement, the account details will be shown to the concerned authorities
 - Filtering of #tonepalreports tweets filtered to directly reached to admins allowing hassle free reporting
+
+[![User demo](https://i.imgur.com/S1BuyiX.png)](http://nepalreports.cf/)
 
 ***Admin:***
 - An additional http://nepalreports.cf/adminlogin dashboard to visualize the reports received
