@@ -2,7 +2,7 @@
 
 This is a web portal which works to collaborate the goverment authorities with citizens to monitor and exchange timely crime reports witnessed in realtime allowing for action in no time with anonyomous reporting for user and dashboard for admin side. 
 
-[![NepalRoports demo](https://i.imgur.com/ZQ7umP5.png)](http://nepalreports.cf/)
+[![NepalReports demo](https://i.imgur.com/ZQ7umP5.png)](http://nepalreports.cf/)
 
 ## Working Scenario:
 
@@ -16,7 +16,7 @@ This is a web portal which works to collaborate the goverment authorities with c
 [![User demo](https://i.imgur.com/S1BuyiX.png)](http://nepalreports.cf/)
 
 ***Admin:***
-- An additional http://nepalreports.cf/adminlogin dashboard to visualize the reports received
+- An additional <a href="http://nepalreports.cf/adminlogin " target="_blank">Admin-Login</a> to dashboard to visualize the reports received
 - A timeline layout showing feeds according to recent report in priority and total fields under which reports have been received
 - Option to act on it with interation with user who filed the report to further proceed the work
 
@@ -26,7 +26,7 @@ This is a web portal which works to collaborate the goverment authorities with c
 
 - Goto http://nepalreports.cf
 
-- Else setup apache and mariadb and open form localhost:
+- Else setup <a href="https://httpd.apache.org/" target="_blank">Apache Web Service</a> and <a href="https://mariadb.org/" target="_blank">MariaDB</a> and open from localhost:
 
 ```
 git clone https://github.com/psuzn/nepalReport
