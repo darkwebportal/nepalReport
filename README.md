@@ -17,7 +17,7 @@ This is a web portal which works to collaborate the goverment authorities to and
 
 ***Admin:***
 - An additional http://nepalreports.cf/adminlogin dashboard to visualize the reports received
-- A timeline layout showing feeds according to recent report in priority
+- A timeline layout showing feeds according to recent report in priority and total fields under which reports have been received
 - Option to act on it with interation with user who filed the report to further proceed the work
 
 [![User demo](https://i.imgur.com/aq40jjN.png)](http://nepalreports.cf/adminlogin)
