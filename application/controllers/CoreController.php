@@ -59,7 +59,14 @@ class CoreController extends CI_Controller {
 	public function signout()
 	{
 		if($this->session->userid)
-			$this->session->unset_userdata(array("firstname","email","gender","userid"));
+			$this->session->unset_userdata(array("firstname","lastname","userid"));
+
+		redirect("");
+	}
+	public function adminsignout()
+	{
+		if($this->session->adminusername)
+			$this->session->unset_userdata(array("adminusername"));
 
 		redirect("");
 	}
