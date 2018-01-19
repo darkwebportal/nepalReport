@@ -125,8 +125,7 @@ class CoreModel extends CI_Model
 			if( password_verify($data["password"],$dbData->password)) //if row with email exist check for the password
 				return array("status"=>true,
 						"firstname"=>$dbData->firstname,
-						"email"=>$dbData->email,
-						"gender"=>$dbData->gender,
+						"lastname"=>$dbData->lastname,
 						"userid"=>$dbData->userid,
 						); //if password matches return the data required for the session
 			else
@@ -152,7 +151,6 @@ class CoreModel extends CI_Model
 			if( password_verify($data["password"],$dbData->password)) //if row with email exist check for the password
 				return array("status"=>true,
 						"username"=>$dbData->username,
-						"email"=>$dbData->email
 						); //if password matches return the data required for the session
 			else
 				return array("status"=>false,
