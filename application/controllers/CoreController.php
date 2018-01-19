@@ -33,7 +33,7 @@ class CoreController extends CI_Controller {
 	public function userhome()
 	{
 		if($this->session->userid)
-			$this->load->view('userhome');
+			$this->load->view('userhome',array("data"=>array("username"=>$this->session->firstname)));
 		else
 			redirect("");
 	}
