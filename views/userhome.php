@@ -12,61 +12,7 @@
   <link href="<?php echo base_url("assets/userhome/css/style.css");?>"" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="<?php echo base_url("assets/bubble.css");?>"" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-    <style type="text/css">
-  div.loginContainer{
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
-  color: #fff;
-  }
-    div.loginContainer.active{
-  background: #813495;
-  padding: 10px;
-  }
-  div.loginContainer>div.main{
-    display: none;
-  }
-  div.loginContainer>div.main.active{
-   display: block;
-  background: #813495;
-  height: 50px;
-  font-size: 14px;
-  text-align: center;
-  }
-
-  div.loginContainer>div.main.active>span{
-    display: block;
-  }
-    div.loginContainer>div.main>span.usernameContainer{
   
-  }
-   div.loginContainer>div.main>span.as{
-  font-weight: bold;
-  font-size: 17px;
-  }
-
-  div.loginContainer>div.main>button{
-  display: block;
-margin: auto;
-    margin-top: auto;
-margin-top: 10px;
-  }
-  div.loginContainer>div.toggle{
-    background: #813495;
-    padding: 11px 20px;
-    border-radius: 50%;
-    font-size: 23px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  div.loginContainer>div.toggle.active{
-      padding: 0;
-    border-radius: 0;
-    display: inline;
-    float: right;
-}
-
-  </style>
   <script>
       <?php echo jsInitializer(); ?>
     </script>
