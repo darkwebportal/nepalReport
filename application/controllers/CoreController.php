@@ -33,7 +33,8 @@ class CoreController extends CI_Controller {
 	public function userhome()
 	{
 		if($this->session->userid)
-			$this->load->view('userhome',array("data"=>array("username"=>$this->session->firstname)));
+			$this->load->view('userhome',array("data"=>array("firstname"=>$this->session->firstname,
+															  "lastname"=>$this->session->lastname)));
 		else
 			redirect("");
 	}
@@ -69,9 +70,11 @@ class CoreController extends CI_Controller {
 		else
 		{
 			$dbreports=$this->CoreModel->getReports();
-			if($dbreports)
+			if($dbreports["status"])
 			{
-				$data=array("data"=>$dbreports);
+				$data=array("data"=>array("reports"=>$dbreports["reports"],
+										  "adminUsername"=>$this->session->adminusername
+										));
 				$this->load->view('dashboard',$data);
 			}
 				
