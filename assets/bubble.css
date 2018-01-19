@@ -5,7 +5,7 @@ bottom: 50px;
 color: #fff;
 }
   div.loginContainer.active{
-background: #813495;
+background: #26a69a;
 padding: 10px;
 }
 div.loginContainer>div.main{
@@ -13,7 +13,7 @@ div.loginContainer>div.main{
 }
 div.loginContainer>div.main.active{
  display: block;
-background: #813495;
+background: #26a69a;
 height: 50px;
 font-size: 14px;
 text-align: center;
@@ -23,7 +23,7 @@ div.loginContainer>div.main.active>span{
   display: block;
 }
   div.loginContainer>div.main>span.usernameContainer{
-
+    padding: 5px;
 }
  div.loginContainer>div.main>span.as{
 font-weight: bold;
@@ -31,18 +31,19 @@ font-size: 17px;
 }
 
 div.loginContainer>div.main>button{
-display: block;
-margin: auto;
-  margin-top: auto;
-margin-top: 10px;
+  background: #26a69a;
+  border: 2px solid white;
+  padding: 0px;
+  padding: 3px 9px;
 }
 div.loginContainer>div.toggle{
-  background: #813495;
+  background: #26a69a;
   padding: 11px 20px;
   border-radius: 50%;
   font-size: 23px;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.1s;
 }
 div.loginContainer>div.toggle.active{
     padding: 0;
