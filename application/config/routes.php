@@ -54,6 +54,7 @@ $route['signup'] = 'CoreController/signup';
 $route['userhome'] = 'CoreController/userhome';
 $route['login'] = 'CoreController/login';
 $route['signout'] = 'CoreController/signout';
+$route['adminsignout'] = 'CoreController/adminsignout';
 $route['report'] = 'CoreController/report';
 $route['adminlogin'] = 'CoreController/adminlogin';
 $route['submitreport'] = 'CoreController/submitreport';
