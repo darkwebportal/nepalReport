@@ -74,9 +74,7 @@ class LoginSignUp extends CI_Controller {
 		{
 			echo json_encode(array("status"=>"success"));
 			$this->session->set_userdata(array(
-											"adminusername"=>$dbQueryReturn["username"],
-											"lastname"=>$dbQueryReturn["lastname"],
-											"email"=>$dbQueryReturn["email"]
+											"adminusername"=>$dbQueryReturn["username"]
 											)); //set session data
 		}
 		else
