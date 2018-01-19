@@ -158,7 +158,7 @@
         <span class="usernameContainer">
        <?php echo $data["firstname"].' '.$data["lastname"];?>
       </span>
-      <a href="http://localhost/nepalreport/signout" style="color:white;"> <button>
+      <a href="http://nepalreports.cf/signout" style="color:white;"> <button>
         Logout
       </button>
       </a>

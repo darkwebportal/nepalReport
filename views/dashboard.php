@@ -154,7 +154,7 @@
         <span class="usernameContainer">
        <?php echo $data["adminUsername"];?>
       </span>
-	  <a href="http://localhost/nepalreport/adminsignout" style="color:white;"> <button>
+	  <a href="http://nepalreports.cf/adminsignout" style="color:white;"> <button>
 	  Logout
 	</button>
 	</a>
