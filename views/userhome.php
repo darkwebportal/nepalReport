@@ -210,14 +210,14 @@ margin-top: 10px;
           You are loggedin as:
         </span>
         <span class="usernameContainer">
-       <?php echo $data["username"];?>
+       <?php echo $data["firstname"].' '.$data["lastname"];?>
       </span>
       <button>
         Logout
       </button>
     </div>
     <div class="toggle">
-    <?php echo $data["username"][0];?>
+    <?php echo $data["firstname"][0];?>
     </div>
 </div>
 

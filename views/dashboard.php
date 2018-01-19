@@ -146,7 +146,22 @@
         
 
     </div>
-    
+    <div class="loginContainer">
+  <div class="main">
+        <span class="as">
+          You are loggedin as:
+        </span>
+        <span class="usernameContainer">
+       <?php echo $data["adminUsername"];?>
+      </span>
+      <button>
+        Logout
+      </button>
+    </div>
+    <div class="toggle">
+    <?php echo $data["adminUsername"][0];?>
+    </div>
+</div>
 	 <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
