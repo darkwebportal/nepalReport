@@ -19,7 +19,7 @@
 
     <!-- Custom CSS -->
      <link href="<?php echo base_url("assets/dashboard/css/sb-admin-2.css"); ?>" rel="stylesheet">
-
+	 <link href="<?php echo base_url("assets/bubble.css");?>"" type="text/css" rel="stylesheet" media="screen,projection"/>
     <!-- Morris Charts CSS -->
      <link href="<?php echo base_url("assets/dashboard/css/morris.css"); ?>" rel="stylesheet">
 
@@ -183,7 +183,7 @@
     <script src="<?php echo base_url("assets/dashboard/js/raphael.min.js"); ?>"></script>
     <script src="<?php echo base_url("assets/dashboard/js/morris.min.js"); ?>"></script>
     <script src="<?php echo base_url("assets/dashboard/js/morris-data.js"); ?>"></script>
-
+	<script src="<?php echo base_url("assets/bubble.js");?>"></script>
     <!-- Custom Theme JavaScript -->
     <script src="<?php echo base_url("assets/dashboard/js/sb-admin-2.js"); ?>"></script>
 

@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="<?php echo base_url("assets/userhome/css/materialize.css");?>" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="<?php echo base_url("assets/userhome/css/style.css");?>"" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="<?php echo base_url("assets/bubble.css");?>"" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
     <style type="text/css">
   div.loginContainer{
