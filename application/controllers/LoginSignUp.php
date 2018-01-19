@@ -75,6 +75,7 @@ class LoginSignUp extends CI_Controller {
 			echo json_encode(array("status"=>"success"));
 			$this->session->set_userdata(array(
 											"adminusername"=>$dbQueryReturn["username"],
+											"lastname"=>$dbQueryReturn["lastname"],
 											"email"=>$dbQueryReturn["email"]
 											)); //set session data
 		}
@@ -148,9 +149,8 @@ class LoginSignUp extends CI_Controller {
 				echo json_encode(array("status"=>"success")); //if success write success in json
 				$this->session->set_userdata(array(
 												"firstname"=>$data["firstname"],
-												"email"=>$data["email"],
-												"gender"=>$data["gender"],
-												"userid"=>$data["userid"]
+												"userid"=>$data["userid"],
+												"lastname"=>$dbQueryReturn["lastname"],
 												)); //set the session data
 			}
 			else
@@ -205,8 +205,7 @@ public function userloginvalidation() //check for login validation
 			echo json_encode(array("status"=>"success"));
 			$this->session->set_userdata(array(
 											"firstname"=>$dbQueryReturn["firstname"],
-											"email"=>$dbQueryReturn["email"],
-											"gender"=>$dbQueryReturn["gender"],
+											"lastname"=>$dbQueryReturn["lastname"],
 											"userid"=>$dbQueryReturn["userid"]
 											)); //set session data
 		}
@@ -278,8 +277,7 @@ public function fblogin()
 			{
 				$this->session->set_userdata(array(
 												"firstname"=>$data["firstname"],
-												"email"=>$data["email"],
-												"gender"=>$data["gender"],
+												"lastname"=>$data["lastname"],
 												"userid"=>$data["userid"]
 												));
 				echo json_encode(array("status"=>"success"));
