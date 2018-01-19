@@ -158,9 +158,10 @@
         <span class="usernameContainer">
        <?php echo $data["firstname"].' '.$data["lastname"];?>
       </span>
-      <button>
+      <a href="http://localhost/nepalreport/signout" style="color:white;"> <button>
         Logout
       </button>
+      </a>
     </div>
     <div class="toggle">
     <?php echo $data["firstname"][0];?>

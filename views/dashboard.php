@@ -154,9 +154,10 @@
         <span class="usernameContainer">
        <?php echo $data["adminUsername"];?>
       </span>
-      <button>
-        Logout
-      </button>
+	  <a href="http://localhost/nepalreport/adminsignout" style="color:white;"> <button>
+	  Logout
+	</button>
+	</a>
     </div>
     <div class="toggle">
     <?php echo $data["adminUsername"][0];?>
