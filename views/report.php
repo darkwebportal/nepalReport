@@ -225,7 +225,7 @@
                 </div>                                    
               </div>
             </div>
-              <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit" >
+              <button class="btn btn-lg btn-primary btn-block signup-btn"  style="background-color:#7f8083 !important;" type="submit" >
                   <span class="create-account-text">Submit</span>
                   <span id="anim-container">
                   <img class="loading-anim" src="<?php echo base_url("assets/signup/30.gif");?>" alt="" style="display: none;">
